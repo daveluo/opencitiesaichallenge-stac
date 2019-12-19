@@ -1,2 +1,2 @@
 # opencitiesaichallenge-stac
-Experimental deployment of stac-browser for the Open Cities AI Challenge
+Notebooks and modified STAC catalogs to enable an experimental deployment of stac-browser for the Open Cities AI Challenge
