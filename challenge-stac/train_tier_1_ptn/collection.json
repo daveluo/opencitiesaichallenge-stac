@@ -1,0 +1,82 @@
+{
+    "id": "train_tier_1_ptn",
+    "stac_version": "0.8.1",
+    "description": "Tier 1 training data from ptn",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./abe1a3-labels/abe1a3-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./f49f31-labels/f49f31-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "train_tier_1 collection for Pointe-Noire, Congo",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    11.885939170933694,
+                    -4.805243717903951,
+                    11.897849273966862,
+                    -4.797722543259397
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-10-29T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "stac_extensions": [
+        "label"
+    ],
+    "providers": [
+        {
+            "name": "OpenStreetMap",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://www.openstreetmap.org"
+        },
+        {
+            "name": "GFDRR Labs",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.gfdrr.org/en/gfdrr-labs"
+        },
+        {
+            "name": "Azavea",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.azavea.com/"
+        },
+        {
+            "name": "DrivenData",
+            "roles": [
+                "host"
+            ],
+            "url": "https://www.drivendata.org"
+        }
+    ]
+}

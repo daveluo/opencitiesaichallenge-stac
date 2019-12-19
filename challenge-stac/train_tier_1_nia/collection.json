@@ -1,0 +1,77 @@
+{
+    "id": "train_tier_1_nia",
+    "stac_version": "0.8.1",
+    "description": "Tier 1 training data from nia",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./825a50-labels/825a50-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "train_tier_1 collection for Niamey, Niger",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    2.000607112710697,
+                    13.570445755015827,
+                    2.0089069498293726,
+                    13.583969811536608
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-10-29T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "stac_extensions": [
+        "label"
+    ],
+    "providers": [
+        {
+            "name": "OpenStreetMap",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://www.openstreetmap.org"
+        },
+        {
+            "name": "GFDRR Labs",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.gfdrr.org/en/gfdrr-labs"
+        },
+        {
+            "name": "Azavea",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.azavea.com/"
+        },
+        {
+            "name": "DrivenData",
+            "roles": [
+                "host"
+            ],
+            "url": "https://www.drivendata.org"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "type": "Feature",
+    "stac_version": "0.8.1",
+    "id": "048ffb-labels",
+    "properties": {
+        "datetime": "2019-02-12 00:00:00Z",
+        "license": "ODbL-1.0",
+        "label:overviews": [
+            {
+                "property_key": [
+                    "building"
+                ],
+                "counts": [
+                    {
+                        "name": "yes",
+                        "count": 5008
+                    }
+                ]
+            }
+        ],
+        "label:description": "Geojson building labels for scene 048ffb",
+        "area": "gao",
+        "label:properties": [
+            "building"
+        ],
+        "label:type": "vector",
+        "label:classes": [
+            {
+                "name": "building",
+                "classes": [
+                    "yes"
+                ]
+            }
+        ]
+    },
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    13.5488923073117,
+                    7.323117418416535
+                ],
+                [
+                    13.575823580380773,
+                    7.323201382585034
+                ],
+                [
+                    13.575897926867352,
+                    7.300136432639437
+                ],
+                [
+                    13.548961044467596,
+                    7.300049413652019
+                ],
+                [
+                    13.5488923073117,
+                    7.323117418416535
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "bbox": [
+        13.548883279320167,
+        7.300047379466889,
+        13.575899964534765,
+        7.323203417076904
+    ],
+    "links": [
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "labels": {
+            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/gao/048ffb-labels/048ffb.geojson",
+            "type": "application/geo+json"
+        },
+        "image": {
+            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/gao/048ffb/048ffb.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+        }
+    },
+    "stac_extensions": [
+        "label"
+    ]
+}

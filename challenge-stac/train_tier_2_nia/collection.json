@@ -1,0 +1,80 @@
+{
+    "id": "train_tier_2_nia",
+    "stac_version": "0.8.1",
+    "description": "Tier 2 training data from nia",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./982a1f-labels/982a1f-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./b80615-labels/b80615-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "train_tier_2 collection for Niamey, Niger",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    2.1333151101084424,
+                    13.461573543437861,
+                    2.1504421214572758,
+                    13.478692840960852
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-10-29T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "stac_extensions": [],
+    "providers": [
+        {
+            "name": "OpenStreetMap",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://www.openstreetmap.org"
+        },
+        {
+            "name": "GFDRR Labs",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.gfdrr.org/en/gfdrr-labs"
+        },
+        {
+            "name": "Azavea",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.azavea.com/"
+        },
+        {
+            "name": "DrivenData",
+            "roles": [
+                "host"
+            ],
+            "url": "https://www.drivendata.org"
+        }
+    ]
+}

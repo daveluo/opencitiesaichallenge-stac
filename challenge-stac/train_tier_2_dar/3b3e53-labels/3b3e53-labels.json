@@ -1,0 +1,175 @@
+{
+    "type": "Feature",
+    "stac_version": "0.8.1",
+    "id": "3b3e53-labels",
+    "properties": {
+        "datetime": "2015-04-20 00:00:00Z",
+        "license": "ODbL-1.0",
+        "label:overviews": [
+            {
+                "property_key": [
+                    "building"
+                ],
+                "counts": [
+                    {
+                        "name": "yes",
+                        "count": 2296
+                    }
+                ]
+            }
+        ],
+        "label:description": "Geojson building labels for scene 3b3e53",
+        "area": "dar",
+        "label:properties": [
+            "building"
+        ],
+        "label:type": "vector",
+        "label:classes": [
+            {
+                "name": "building",
+                "classes": [
+                    "yes"
+                ]
+            }
+        ]
+    },
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    39.240497099468755,
+                    -6.77419742062571
+                ],
+                [
+                    39.24055951519249,
+                    -6.773994749530299
+                ],
+                [
+                    39.24062623980235,
+                    -6.7739060189614895
+                ],
+                [
+                    39.244950539135885,
+                    -6.769502978854515
+                ],
+                [
+                    39.25335742739908,
+                    -6.766817379422372
+                ],
+                [
+                    39.25583429401004,
+                    -6.762152792157852
+                ],
+                [
+                    39.252752144461866,
+                    -6.76064567664713
+                ],
+                [
+                    39.25270649307351,
+                    -6.760610901992687
+                ],
+                [
+                    39.25364357412827,
+                    -6.756050660127785
+                ],
+                [
+                    39.25366141733803,
+                    -6.75601303190567
+                ],
+                [
+                    39.25380346963555,
+                    -6.755912311205772
+                ],
+                [
+                    39.253958994983165,
+                    -6.75581760271808
+                ],
+                [
+                    39.254141815440995,
+                    -6.755801242826767
+                ],
+                [
+                    39.258391338531275,
+                    -6.7578470182633215
+                ],
+                [
+                    39.26087597598226,
+                    -6.759951120404647
+                ],
+                [
+                    39.26086211994263,
+                    -6.76001850807262
+                ],
+                [
+                    39.25793499896317,
+                    -6.767240330026675
+                ],
+                [
+                    39.25568325837386,
+                    -6.771279738109016
+                ],
+                [
+                    39.25019048040561,
+                    -6.772344192041261
+                ],
+                [
+                    39.243864327306504,
+                    -6.7766169671750145
+                ],
+                [
+                    39.24364325922642,
+                    -6.776627962309541
+                ],
+                [
+                    39.240386394568034,
+                    -6.774585545296425
+                ],
+                [
+                    39.240382747167764,
+                    -6.774554787269493
+                ],
+                [
+                    39.240497099468755,
+                    -6.77419742062571
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "bbox": [
+        39.24038235879926,
+        -6.776634911323602,
+        39.260877513201955,
+        -6.755798718725049
+    ],
+    "links": [
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "labels": {
+            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/dar/3b3e53-labels/3b3e53.geojson",
+            "type": "application/geo+json"
+        },
+        "image": {
+            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/dar/3b3e53/3b3e53.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+        }
+    },
+    "stac_extensions": [
+        "label"
+    ]
+}

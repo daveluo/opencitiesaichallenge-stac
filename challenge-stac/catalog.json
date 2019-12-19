@@ -1,0 +1,78 @@
+{
+    "id": "open_cities_ai_challenge",
+    "stac_version": "0.8.1",
+    "description": "Training data STACs modified for stac-browser use. Join the Challenge at: https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/",
+    "links": [
+        {
+            "rel": "root",
+            "href": "./catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_1_acc/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_1_mon/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_1_ptn/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_1_kam/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_1_dar/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_1_znz/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_1_nia/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_2_dar/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_2_gao/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_2_mah/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_2_kin/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./train_tier_2_nia/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "/content/challenge-stac/catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "Open Cities AI Challenge"
+}

@@ -1,0 +1,225 @@
+{
+    "id": "train_tier_2_dar",
+    "stac_version": "0.8.1",
+    "description": "Tier 2 training data from dar",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./8737a8-labels/8737a8-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./e14d1d-labels/e14d1d-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./8d7dd4-labels/8d7dd4-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./9870ba-labels/9870ba-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./3b3e53-labels/3b3e53-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./0ccd08-labels/0ccd08-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./ab32c9-labels/ab32c9-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./94a004-labels/94a004-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./fb4c1a-labels/fb4c1a-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./ca3445-labels/ca3445-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./82a1f3-labels/82a1f3-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./cf83de-labels/cf83de-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./97ce35-labels/97ce35-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./24a7d8-labels/24a7d8-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./b8faa3-labels/b8faa3-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./63c3f9-labels/63c3f9-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./c533fa-labels/c533fa-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./5fe6fb-labels/5fe6fb-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./385a0e-labels/385a0e-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./759e34-labels/759e34-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./ef8f27-labels/ef8f27-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./1d8af6-labels/1d8af6-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./d2f2f4-labels/d2f2f4-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./eadfa3-labels/eadfa3-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./cbf72d-labels/cbf72d-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./5fadcd-labels/5fadcd-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./56e713-labels/56e713-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./219237-labels/219237-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./109874-labels/109874-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./f9d120-labels/f9d120-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./541eff-labels/541eff-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "train_tier_2 collection for Dar es Salaam, Tanzania",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    39.26268958868859,
+                    -6.941071603331302,
+                    39.280329883702855,
+                    -6.921776188892435
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-10-29T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "stac_extensions": [],
+    "providers": [
+        {
+            "name": "OpenStreetMap",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://www.openstreetmap.org"
+        },
+        {
+            "name": "GFDRR Labs",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.gfdrr.org/en/gfdrr-labs"
+        },
+        {
+            "name": "Azavea",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.azavea.com/"
+        },
+        {
+            "name": "DrivenData",
+            "roles": [
+                "host"
+            ],
+            "url": "https://www.drivendata.org"
+        }
+    ]
+}

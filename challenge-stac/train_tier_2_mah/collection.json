@@ -1,0 +1,90 @@
+{
+    "id": "train_tier_2_mah",
+    "stac_version": "0.8.1",
+    "description": "Tier 2 training data from mah",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./71e6c2-labels/71e6c2-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./bd129c-labels/bd129c-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./240168-labels/240168-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./5fe2d3-labels/5fe2d3-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "train_tier_2 collection for Mahe Island, Seychelles",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    55.505682923018846,
+                    -4.755219753537419,
+                    55.523769189307544,
+                    -4.7334076332482
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-10-29T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "stac_extensions": [],
+    "providers": [
+        {
+            "name": "OpenStreetMap",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://www.openstreetmap.org"
+        },
+        {
+            "name": "GFDRR Labs",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.gfdrr.org/en/gfdrr-labs"
+        },
+        {
+            "name": "Azavea",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.azavea.com/"
+        },
+        {
+            "name": "DrivenData",
+            "roles": [
+                "host"
+            ],
+            "url": "https://www.drivendata.org"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "id": "train_tier_2_gao",
+    "stac_version": "0.8.1",
+    "description": "Tier 2 training data from gao",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./4f38e1-labels/4f38e1-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./048ffb-labels/048ffb-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "train_tier_2 collection for Ngaoundere, Cameroon",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    13.548883279320167,
+                    7.300047379466889,
+                    13.575899964534765,
+                    7.323203417076904
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-10-29T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "stac_extensions": [],
+    "providers": [
+        {
+            "name": "OpenStreetMap",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://www.openstreetmap.org"
+        },
+        {
+            "name": "GFDRR Labs",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.gfdrr.org/en/gfdrr-labs"
+        },
+        {
+            "name": "Azavea",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.azavea.com/"
+        },
+        {
+            "name": "DrivenData",
+            "roles": [
+                "host"
+            ],
+            "url": "https://www.drivendata.org"
+        }
+    ]
+}

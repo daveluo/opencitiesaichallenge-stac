@@ -1,0 +1,80 @@
+{
+    "id": "train_tier_2_kin",
+    "stac_version": "0.8.1",
+    "description": "Tier 2 training data from kin",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./10d200-labels/10d200-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./255028-labels/255028-labels.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "train_tier_2 collection for Kinshasa, DR Congo",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    15.360103888634749,
+                    -4.396179514130403,
+                    15.365123195839764,
+                    -4.386165323779915
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-10-29T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "stac_extensions": [],
+    "providers": [
+        {
+            "name": "OpenStreetMap",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://www.openstreetmap.org"
+        },
+        {
+            "name": "GFDRR Labs",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.gfdrr.org/en/gfdrr-labs"
+        },
+        {
+            "name": "Azavea",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.azavea.com/"
+        },
+        {
+            "name": "DrivenData",
+            "roles": [
+                "host"
+            ],
+            "url": "https://www.drivendata.org"
+        }
+    ]
+}
