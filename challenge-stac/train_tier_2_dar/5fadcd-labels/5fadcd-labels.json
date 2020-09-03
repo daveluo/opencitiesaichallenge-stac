@@ -929,11 +929,11 @@
     ],
     "assets": {
         "labels": {
-            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/dar/5fadcd-labels/5fadcd.geojson",
+            "href": "https://opencitiesaichallenge-public.s3-us-west-1.amazonaws.com/train_tier_2/dar/5fadcd-labels/5fadcd.geojson",
             "type": "application/geo+json"
         },
         "image": {
-            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/dar/5fadcd/5fadcd.tif",
+            "href": "https://opencitiesaichallenge-public.s3-us-west-1.amazonaws.com/train_tier_2/dar/5fadcd/5fadcd.tif",
             "type": "image/tiff; application=geotiff; profile=cloud-optimized"
         }
     },

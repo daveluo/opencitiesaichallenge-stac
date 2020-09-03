@@ -2701,11 +2701,11 @@
     ],
     "assets": {
         "labels": {
-            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/gao/4f38e1-labels/4f38e1.geojson",
+            "href": "https://opencitiesaichallenge-public.s3-us-west-1.amazonaws.com/train_tier_2/gao/4f38e1-labels/4f38e1.geojson",
             "type": "application/geo+json"
         },
         "image": {
-            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/gao/4f38e1/4f38e1.tif",
+            "href": "https://opencitiesaichallenge-public.s3-us-west-1.amazonaws.com/train_tier_2/gao/4f38e1/4f38e1.tif",
             "type": "image/tiff; application=geotiff; profile=cloud-optimized"
         }
     },

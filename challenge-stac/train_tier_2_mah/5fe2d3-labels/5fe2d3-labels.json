@@ -1157,11 +1157,11 @@
     ],
     "assets": {
         "labels": {
-            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/mah/5fe2d3-labels/5fe2d3.geojson",
+            "href": "https://opencitiesaichallenge-public.s3-us-west-1.amazonaws.com/train_tier_2/mah/5fe2d3-labels/5fe2d3.geojson",
             "type": "application/geo+json"
         },
         "image": {
-            "href": "https://drivendata-competition-building-segmentation.s3-us-west-1.amazonaws.com/train_tier_2/mah/5fe2d3/5fe2d3.tif",
+            "href": "https://opencitiesaichallenge-public.s3-us-west-1.amazonaws.com/train_tier_2/mah/5fe2d3/5fe2d3.tif",
             "type": "image/tiff; application=geotiff; profile=cloud-optimized"
         }
     },
